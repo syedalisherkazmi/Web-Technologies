@@ -1,0 +1,37 @@
+.mlogo{
+    font-family: "Orbitron", sans-serif;
+display: flex;
+text-align: center;
+justify-content: center;
+padding-top: 15rem;
+animation: fade-up 2s;
+text-shadow: 0 5px 3px rgb(15, 1, 1);
+color: rgb(234, 236, 237);
+letter-spacing: 1rem;
+font-size: 1rem;
+padding-bottom: 10px;
+}
+
+@keyframes fade-up{
+0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+}}
+
+.mtext{
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+text-align: center;
+justify-content: center;
+padding: 10px;
+animation: fade-up 2s;
+text-shadow: 0 2px 3px rgb(34, 32, 32);
+color: rgb(234, 236, 237);
+letter-spacing: 1px;
+font-size: 20px;
+padding-bottom: 150px;
+}

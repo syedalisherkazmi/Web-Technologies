@@ -1,0 +1,73 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding-top: 40px;
+}
+
+
+.logo{
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    font-weight: 300;
+    color: ghostwhite;
+    padding-left: 1rem auto;
+    padding-right: 1rem auto;
+}
+
+@keyframes fade-down{
+0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+}
+}
+nav{
+    background-color: rgba(73, 72, 74, 0.174);
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px 1%;
+    backdrop-filter:blur(15px);
+    border: 1px solid rgba(230, 220, 220, 0.103);
+    border-radius: 60px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    animation: fade-down 2s;animation: fade-down 2s;
+
+
+}
+.nav-links{
+display: flex;
+gap: 2rem;
+list-style: none;
+}
+.nav-links li a:hover{
+    text-shadow: 0 0 5px rgb(206, 199, 199);
+} 
+
+.nav-links li a{
+    font: 1em sans-serif;
+    position: relative;
+    text-decoration: none;
+    color: rgb(247, 240, 240);
+
+}
+.btns{
+    display: flex;
+     padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+.btn{
+    color: black;
+    padding: 0.5rem 1.5rem;
+   border-radius: 60px;
+   border: 1px solid black;
+   cursor: pointer;
+}

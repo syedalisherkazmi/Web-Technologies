@@ -1,0 +1,12 @@
+.header {
+  color: white;
+  padding: 0;
+  background:
+    radial-gradient(circle at center, #01010c 40%, rgb(6, 6, 57) 120%);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-color: #01010c;
+}
